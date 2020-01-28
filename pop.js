@@ -1,10 +1,25 @@
-<script type="text/javascript">
-    var ad_idzone = "3502383",
-    ad_popup_fallback = false,
-    ad_popup_force = false,
-    ad_new_tab = false,
-    ad_frequency_period = 60,
-    ad_frequency_count = 1,
-    ad_trigger_method = 1;
+<!-- PopAds.net Popunder Code for javsub.co -->
+<script type="text/javascript" data-cfasync="false">
+/*<![CDATA[/* */
+  var _pop = _pop || [];
+  _pop.push(['siteId', 3167557]);
+  _pop.push(['minBid', 0.001000]);
+  _pop.push(['popundersPerIP', 0]);
+  _pop.push(['delayBetween', 1200]);
+  _pop.push(['default', false]);
+  _pop.push(['defaultPerDay', 0]);
+  _pop.push(['topmostLayer', false]);
+  (function() {
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    var s = document.getElementsByTagName('script')[0]; 
+    pa.src = '//c1.popads.net/pop.js';
+    pa.onerror = function() {
+      var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
+      sa.src = '//c2.popads.net/pop.js';
+      s.parentNode.insertBefore(sa, s);
+    };
+    s.parentNode.insertBefore(pa, s);
+  })();
+/*]]>/* */
 </script>
-<script type="text/javascript" src="https://a.exosrv.com/popunder1000.js"></script>
+<!-- PopAds.net Popunder Code End -->
